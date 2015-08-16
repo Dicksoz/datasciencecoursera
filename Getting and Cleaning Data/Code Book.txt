@@ -1,0 +1,28 @@
+============================================================================================
+Coursera - Data Science Specialization - Getting and Cleaning Data - Course Project
+============================================================================================
+Zachery Dickson
+============================================================================================
+These data were prepared as an excersice for the Course listed above from data calculated in the study listed below
+These data were arranged from several files containing meta- and raw data into a single data set using the script in "run_analysis.R"
+Only a subset of the data was taken; those which were mean and standard deviation calculations
+The resulting dataset was then processed to calculate the mean over replicate runs with specific subjects and activities.
+The final dataset is contained in the file "MeanData.txt" which is tab delimited with a header line, and a new record on every subsequent line.
+
+Column names are as follows:
+
+SubjectID - A number identifying to which subject the mean values correspond; an integer between 1 and 30
+Activity - A character vector describing what the subject was doing when the measurments were taken.
+
+The remaining columns are named by the specific measurment to which they correspond. More information can be found in the included "Meas.txt" and "Meas_info.txt"
+
+
+============================================================================================
+Original Data Sourced from: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+Aug 13/15
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
